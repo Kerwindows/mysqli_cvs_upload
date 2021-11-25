@@ -27,7 +27,6 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `import_users`
 --
-
 CREATE TABLE `import_users` (
   `import_id` int NOT NULL,
   `fname` varchar(100) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
