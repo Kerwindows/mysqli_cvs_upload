@@ -4,7 +4,7 @@ class ImportCSV extends mysqli
     private $state_csv = false;
     public function __construct()
     {
-        parent::__construct("localhost", "necrodrow_scancheck", "9276FAKISLF", "necrodrow_scancheck");
+        parent::__construct("localhost", "username", "password", "databasename");
         if ($this->connect_error)
         {
             echo "Fail to connect to database" . $this->connect_error;
